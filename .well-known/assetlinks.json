@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.amana.halalmap",
+      "sha256_cert_fingerprints": [
+        "3C:BE:6F:AF:68:6B:68:26:82:0D:24:9C:EA:A8:41:FA:51:2F:41:B1:38:50:FF:CE:80:57:9A:E9:BD:FC:99:A5"
+      ]
+    }
+  }
+]

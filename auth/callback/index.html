@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Continuer dans Amana</title>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <main>
+    <a class="brand" href="../../privacy.html"><span class="mark">A</span>Amana</a>
+    <p class="eyebrow">Connexion sécurisée</p>
+    <h1>Continuez dans Amana.</h1>
+    <p class="lead">Ouvrez l’application pour terminer la confirmation de votre compte ou la modification de votre mot de passe.</p>
+    <p><a id="open-app" class="button" href="amana://auth-callback">Ouvrir Amana</a></p>
+    <p class="muted">Si l’application n’est pas encore installée, vous pouvez fermer cette page et reprendre après son installation.</p>
+    <p><a class="text-link" href="mailto:support@amana-app.fr">Contacter le support</a></p>
+  </main>
+  <script>
+    const target = `amana://auth-callback${window.location.search}${window.location.hash}`;
+    document.getElementById('open-app').href = target;
+  </script>
+</body>
+</html>
