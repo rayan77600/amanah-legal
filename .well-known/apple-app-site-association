@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "BY9288XQRZ.com.amana.halalmap"
+        ],
+        "components": [
+          {
+            "/": "/auth/callback*",
+            "comment": "Open Amana after an authentication callback."
+          }
+        ]
+      }
+    ]
+  }
+}
