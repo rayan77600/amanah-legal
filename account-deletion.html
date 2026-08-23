@@ -4,15 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index,follow">
-  <title>Suppression du compte · Amanah</title>
+  <title>Suppression du compte · Amana</title>
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <main>
-    <a class="brand" href="./privacy.html"><span class="mark">A</span>Amanah</a>
+    <a class="brand" href="./privacy.html"><span class="mark">A</span>Amana</a>
     <p class="eyebrow">Gestion du compte</p>
-    <h1>Supprimer mon compte Amanah</h1>
-    <p class="lead">Le moyen le plus rapide est disponible dans Amanah : <strong>Plus → Mon compte → Supprimer mon compte</strong>.</p>
+    <h1>Supprimer mon compte Amana</h1>
+    <p class="lead">Le moyen le plus rapide est disponible dans Amana : <strong>Plus → Mon compte → Supprimer mon compte</strong>.</p>
     <p>La suppression efface définitivement le compte, les favoris et les données personnelles associées. Les lieux déjà publiés restent dans l’annuaire sans lien avec l’ancien compte.</p>
 
     <form id="request-form" class="card">
@@ -21,13 +21,13 @@
       <input id="email" name="email" type="email" autocomplete="email" required>
       <label class="confirmation">
         <input id="confirm" type="checkbox" required>
-        Je demande la suppression définitive de mon compte Amanah.
+        Je demande la suppression définitive de mon compte Amana.
       </label>
       <button class="button danger" type="submit">Envoyer la demande</button>
       <p id="status" class="status" role="status" aria-live="polite"></p>
     </form>
 
-    <p class="muted">Amanah pourra demander une vérification complémentaire afin de confirmer que vous êtes propriétaire du compte.</p>
+    <p class="muted">Amana pourra demander une vérification complémentaire afin de confirmer que vous êtes propriétaire du compte.</p>
     <p><a class="text-link" href="./privacy.html">Consulter la politique de confidentialité</a></p>
   </main>
   <script>
@@ -47,7 +47,7 @@
           body: JSON.stringify({
             email: form.email.value.trim(),
             requestType: 'account_deletion',
-            message: 'Demande de suppression définitive du compte Amanah.',
+            message: 'Demande de suppression définitive du compte Amana.',
           }),
         });
         if (!response.ok) throw new Error('La demande n’a pas pu être envoyée.');
