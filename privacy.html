@@ -9,52 +9,99 @@
 </head>
 <body>
   <main>
-    <a class="brand" href="./privacy.html"><span class="mark">A</span>Amana</a>
-    <p class="eyebrow">Dernière mise à jour : 23 août 2026</p>
-    <h1>Vos données restent au service de la confiance.</h1>
-    <p class="lead">Amana aide à trouver des restaurants halal vérifiés et des mosquées. Nous limitons la collecte aux données nécessaires au fonctionnement de l’application.</p>
+    <a class="brand" href="https://amana-app.fr/"><span class="mark">A</span>Amana</a>
+    <p class="eyebrow">Dernière mise à jour : 11 novembre 2026</p>
+    <h1>Vos données dans Amana.</h1>
+    <p class="lead">Amana est un annuaire de restaurants, boucheries, magasins alimentaires et mosquées en France. Vous pouvez consulter la carte et les fiches sans créer de compte et sans autoriser la localisation.</p>
 
-    <section>
-      <h2>Données traitées</h2>
+    <section aria-labelledby="responsable">
+      <h2 id="responsable">Qui traite vos données ?</h2>
+      <p>Amana est éditée en nom personnel par <strong>Rayan Ksourou</strong>, responsable des traitements nécessaires à son fonctionnement. Pour toute question concernant vos données ou pour exercer vos droits : <a href="mailto:support@amana-app.fr">support@amana-app.fr</a>.</p>
+    </section>
+
+    <section aria-labelledby="compte">
+      <h2 id="compte">Compte, profil et contributions</h2>
+      <p>Si vous créez un compte, Amana traite votre adresse e-mail, un identifiant de compte, votre pseudo et les informations de profil que vous renseignez. Ces données permettent la connexion, les favoris, les contributions et leur suivi. L'adresse e-mail et le pseudo sont nécessaires pour utiliser ces fonctions ; ils ne sont pas nécessaires pour consulter la carte.</p>
+      <p>Votre pseudo et l'avatar choisi peuvent accompagner vos avis publics. Les points et badges de contribution peuvent apparaître dans le classement, selon le choix effectué dans votre profil. Votre adresse de connexion n'est pas destinée à être publiée avec vos avis.</p>
+      <p>Les favoris, propositions de lieux, signalements, notes et commentaires sont associés à votre compte. Les informations d'une proposition acceptée peuvent alimenter la fiche publique d'un établissement. Les données de l'annuaire peuvent aussi provenir d'organismes de certification, de sources publiques, d'établissements ou d'autres contributions ; les précisions disponibles sont présentées sur les fiches.</p>
+      <p>Lorsque vous choisissez Google ou Apple pour vous connecter, ce fournisseur transmet les informations nécessaires à la connexion, notamment un identifiant et une adresse e-mail, qui peut être masquée par Apple. Google peut également transmettre un nom et un lien de photo de profil, conservés avec les métadonnées du compte et susceptibles d'être utilisés pour le profil. Votre mot de passe Google ou Apple n'est pas transmis à Amana. Cette connexion ne donne pas accès à vos messages ni à votre boîte Gmail ou à l'ensemble de votre photothèque.</p>
+    </section>
+
+    <section aria-labelledby="avis">
+      <h2 id="avis">Avis, signalements et sécurité</h2>
+      <p>Les nouveaux avis et leurs modifications sont examinés avant publication. Les avis en attente ou masqués ne sont pas publics. Les signalements, leurs précisions et les notes de modération sont accessibles aux seules personnes habilitées à leur traitement.</p>
+      <p>Si vous bloquez un auteur, Amana conserve ce choix dans votre compte afin de masquer ses avis pour vous. Vous pouvez le retirer depuis « Plus → Auteurs bloqués ». Un blocage personnel ne supprime ni l'auteur ni ses contenus pour les autres utilisateurs.</p>
+      <p>La modération peut restreindre la publication d'avis afin de prévenir les abus. Les décisions sont prises par une personne habilitée ; elles ne résultent pas d'une décision entièrement automatisée.</p>
+    </section>
+
+    <section aria-labelledby="position">
+      <h2 id="position">Localisation et carte</h2>
+      <p>Avec votre autorisation, votre position sert à afficher les lieux proches. Vous pouvez refuser cette autorisation ou la retirer dans les réglages du téléphone et rechercher une ville manuellement. Amana ne constitue pas d'historique de déplacements dans votre profil.</p>
+      <p>La zone géographique consultée est envoyée au serveur pour charger les lieux visibles. Mapbox reçoit les requêtes nécessaires à l'affichage de la carte et peut traiter des informations techniques, de localisation et d'usage dé-identifiées via sa télémétrie. Consultez la <a href="https://www.mapbox.com/legal/privacy">politique Mapbox</a> et les choix proposés par le contrôle d'attribution de la carte.</p>
+      <p>Le bouton « Itinéraire » transmet la destination choisie à une application externe, par exemple Plans, Google Maps ou Waze. Cette application applique ses propres réglages de localisation et sa politique de confidentialité. Les anciennes versions d'Amana peuvent encore proposer un calcul de transports publics via Île-de-France Mobilités ; ce parcours est retiré de la prochaine version.</p>
+    </section>
+
+    <section aria-labelledby="notifications">
+      <h2 id="notifications">Notifications facultatives</h2>
+      <p>Si vous activez les notifications, un jeton technique d'envoi et la plateforme de votre appareil sont associés à votre compte pour acheminer les messages liés à vos contributions. Le service utilise Firebase Cloud Messaging de Google et, sur iPhone, Apple Push Notification service.</p>
+      <p>Vous pouvez les désactiver dans les réglages proposés par Amana ou dans ceux du téléphone. À la désactivation dans Amana, à la déconnexion ou à la suppression du compte, l'app demande le retrait du jeton enregistré et sa suppression côté messagerie. Une coupure réseau peut retarder cette opération. Retirer une permission système et supprimer un identifiant chez un prestataire sont deux opérations distinctes.</p>
+      <p>Les notifications peuvent être visibles sur l'écran verrouillé selon vos réglages. Refuser les notifications n'empêche pas de consulter Amana ni le suivi de vos contributions dans l'app.</p>
+    </section>
+
+    <section aria-labelledby="diagnostic">
+      <h2 id="diagnostic">Diagnostic et demandes de support</h2>
+      <p>Amana utilise Sentry pour diagnostiquer les erreurs et plantages avec un contexte technique, comme la version de l'app, le système et le modèle de l'appareil. La version préparée limite les rapports traités par l'app au type d'erreur et à la pile technique ; le texte libre des messages, les données de compte et les requêtes sont retirés de ces rapports. Les traces de performance sont mises en pause. Les anciennes versions peuvent encore transmettre ces mesures.</p>
+      <p>Si vous nous contactez, votre adresse e-mail et votre message servent à traiter la demande. Le site utilise aussi un identifiant dérivé de l'adresse réseau pour limiter les envois abusifs du formulaire. Évitez de transmettre un mot de passe, une pièce d'identité ou des données sensibles dans un avis ou une demande ordinaire.</p>
+      <p>Amana ne vend pas vos données et n'utilise pas ces fonctions pour diffuser de la publicité ciblée. Aucun paiement, don ou abonnement n'est prévu dans la version de lancement décrite ici.</p>
+    </section>
+
+    <section aria-labelledby="fondements">
+      <h2 id="fondements">Pourquoi ces traitements sont-ils effectués ?</h2>
       <ul>
-        <li><strong>Compte :</strong> adresse e-mail et identifiant technique Supabase lorsque vous créez un compte.</li>
-        <li><strong>Contributions :</strong> favoris, signalements et propositions de lieux associés à votre compte.</li>
-        <li><strong>Position :</strong> utilisée pour afficher les lieux proches et calculer un itinéraire. Amana ne conserve pas d’historique de déplacements dans votre profil.</li>
-        <li><strong>Données techniques :</strong> informations minimales nécessaires à la sécurité, au diagnostic et à la limitation des abus.</li>
+        <li><strong>Exécution du service demandé :</strong> création du compte, authentification, favoris, publication et suivi des contributions que vous choisissez d'utiliser.</li>
+        <li><strong>Consentement et choix facultatifs :</strong> utilisation de la position pour rechercher autour de vous et notifications activées à votre demande. Vous pouvez retirer la permission ou désactiver les notifications ; les fonctions sans compte ni localisation restent accessibles.</li>
+        <li><strong>Intérêt légitime :</strong> sécurité du service, prévention des abus, modération humaine et diagnostic technique nécessaire à la correction des erreurs. Cet intérêt est mis en balance avec vos droits ; vous pouvez nous écrire pour exercer votre droit d'opposition lorsqu'il s'applique.</li>
+        <li><strong>Obligations légales :</strong> traitement des demandes d'exercice des droits et réponse aux obligations applicables.</li>
       </ul>
+      <p>Les services intégrés peuvent avoir leurs propres traitements et choix de confidentialité. La permission du téléphone ne vaut pas à elle seule autorisation de toutes les utilisations de données par ces services.</p>
     </section>
 
-    <section>
-      <h2>Utilisation</h2>
-      <p>Ces données servent à fournir la carte, les itinéraires, les favoris, les contributions, la modération et la sécurité du service. Elles ne sont ni vendues ni utilisées pour de la publicité ciblée.</p>
-    </section>
-
-    <section>
-      <h2>Prestataires</h2>
+    <section aria-labelledby="destinataires">
+      <h2 id="destinataires">Qui peut recevoir vos données ?</h2>
+      <p>L'accès est limité aux personnes habilitées pour le support, la sécurité et la modération, ainsi qu'aux prestataires nécessaires aux fonctions utilisées :</p>
       <ul>
         <li><strong>Supabase :</strong> authentification, base de données, stockage et fonctions serveur.</li>
-        <li><strong>Mapbox :</strong> affichage cartographique.</li>
-        <li><strong>Île-de-France Mobilités :</strong> calcul des trajets en transports publics en Île-de-France.</li>
-        <li><strong>Géoplateforme / Base Adresse Nationale :</strong> recherche et géocodage d’adresses françaises.</li>
-        <li><strong>Brevo :</strong> envoi des e-mails transactionnels liés au compte.</li>
-        <li><strong>Sentry :</strong> diagnostic des erreurs techniques et des plantages.</li>
+        <li><strong>Google et Apple :</strong> connexion lorsque vous choisissez leur fournisseur ; Firebase Cloud Messaging et Apple Push Notification service pour les notifications.</li>
+        <li><strong>Mapbox :</strong> carte et services cartographiques.</li>
+        <li><strong>Géoplateforme / Base Adresse Nationale :</strong> recherche et géocodage des adresses.</li>
+        <li><strong>Brevo :</strong> e-mails transactionnels du compte.</li>
+        <li><strong>Sentry :</strong> diagnostic technique ; les anciennes versions peuvent encore envoyer des traces de performance. Région de stockage sélectionnée dans l'Union européenne.</li>
       </ul>
+      <p>La base Supabase principale est hébergée en <strong>Suède</strong>. Son accord de traitement prévoit des clauses contractuelles types pour les transferts concernés hors de l'Espace économique européen, notamment vers Singapour et les États-Unis. L'assistance, les opérations techniques et certains services de diffusion peuvent impliquer des traitements hors de la région de la base. Les précisions du fournisseur figurent dans sa <a href="https://supabase.com/legal/privacy-resources/data-residency-and-transfers-faq">documentation sur l'hébergement et les transferts</a>.</p>
+      <p>Les autres prestataires peuvent aussi traiter des données hors de l'Espace économique européen selon la fonctionnalité utilisée. Vous pouvez nous demander des précisions sur les garanties concernant vos données à <a href="mailto:support@amana-app.fr">support@amana-app.fr</a>.</p>
     </section>
 
-    <section>
-      <h2>Conservation et suppression</h2>
-      <p>Les données liées au compte sont conservées tant que le compte existe. Une contribution déjà acceptée dans l’annuaire peut rester publiée après suppression du compte, sans lien avec votre identité.</p>
-      <p><a class="button" href="./account-deletion.html">Supprimer mon compte</a></p>
+    <section aria-labelledby="conservation">
+      <h2 id="conservation">Conservation et suppression</h2>
+      <ul>
+        <li><strong>Compte et favoris :</strong> conservés pendant l'existence du compte ; la suppression retire le compte et les données qui lui sont directement liées, selon les catégories décrites ci-dessous.</li>
+        <li><strong>Avis et choix de blocage :</strong> associés au compte ; les avis personnels et les choix de blocage sont supprimés avec celui-ci.</li>
+        <li><strong>Annuaire :</strong> les informations factuelles d'un lieu accepté peuvent rester dans le catalogue lorsque le compte qui les a proposées est supprimé. Contactez-nous si une fiche contient des coordonnées personnelles à rectifier ou à retirer.</li>
+        <li><strong>Support et signalements traités :</strong> six mois après clôture, sauf litige toujours en cours justifiant une conservation limitée aux éléments nécessaires. Cette règle ne supprime pas les comptes ni les avis publiés.</li>
+        <li><strong>Diagnostic Sentry :</strong> les événements détaillés d'erreur et les traces de performance sont conservés pendant 30 jours avec l'offre Developer utilisée. Les compteurs historiques d'occurrences peuvent subsister sans permettre l'accès aux événements expirés ; les cycles de sauvegarde du prestataire restent distincts de cette fenêtre.</li>
+        <li><strong>Notifications :</strong> le jeton enregistré par Amana est retiré à la désactivation, à la déconnexion ou à la suppression du compte lorsque la requête aboutit. Les identifiants d'installation Firebase suivent un cycle distinct ; supprimer un jeton ne suffit pas à garantir leur effacement immédiat.</li>
+        <li><strong>Journaux et sauvegardes :</strong> soumis aux fenêtres techniques des services retenus et à la rotation de leurs sauvegardes. Ils ne deviennent pas une archive destinée à réutiliser un compte supprimé.</li>
+      </ul>
+      <p>Pour supprimer votre compte depuis Amana, ouvrez « Mon compte → Supprimer mon compte ». Si vous n'avez plus accès à l'app, utilisez la <a href="https://amana-app.fr/account-deletion.html">page de demande de suppression</a>. Une vérification de la possession du compte peut être nécessaire.</p>
+      <p>Les demandes adressées au support sont traitées séparément des comptes : supprimer le compte ne supprime pas automatiquement un message envoyé via le formulaire du site.</p>
     </section>
 
-    <section>
-      <h2>Vos droits</h2>
-      <p>Vous pouvez demander l’accès, la rectification ou la suppression de vos données depuis l’application ou via notre formulaire dédié.</p>
-      <p><a class="text-link" href="./contact.html">Contacter Amana au sujet de mes données</a></p>
-      <p>Vous pouvez également écrire à <a class="text-link" href="mailto:support@amana-app.fr">support@amana-app.fr</a>.</p>
+    <section aria-labelledby="droits">
+      <h2 id="droits">Vos droits</h2>
+      <p>Vous pouvez demander l'accès à vos données, leur rectification, leur effacement ou la limitation du traitement. Selon le fondement du traitement, vous pouvez aussi exercer un droit d'opposition, de portabilité ou retirer votre consentement. Le retrait d'un consentement n'affecte pas la licéité du traitement effectué auparavant.</p>
+      <p>Écrivez à <a href="mailto:support@amana-app.fr">support@amana-app.fr</a> ou utilisez le <a href="https://amana-app.fr/contact.html">formulaire de contact</a>. Nous pouvons demander uniquement les informations nécessaires à la vérification et au traitement de votre demande.</p>
+      <p>Vous pouvez également adresser une réclamation à la <a href="https://www.cnil.fr/fr/adresser-une-plainte">CNIL</a>.</p>
     </section>
-
-    <aside><strong>Responsable du traitement :</strong> Amana. Contact : <a class="text-link" href="mailto:support@amana-app.fr">support@amana-app.fr</a>. L’identité légale et l’adresse postale de l’éditeur seront ajoutées avant la publication publique.</aside>
   </main>
 </body>
 </html>
